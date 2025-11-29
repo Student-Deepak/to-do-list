@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+   width: 500px;
+   height: 600px;
+    margin: auto;
+    border: 2px solid blue;
+    margin-top: 5px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin: 2rem;  
+     
+}
+.input-task{
+    margin: 8px;
+    border: 1px solid blue;
+    padding: 0.6rem;
+    width: 96%;
+    border-radius: 15px;
+}
+label{
+    display: block;
+    margin: 5px;
+    
+}
+.input-task input{
+    width: 80%;
+    padding:7px;
+
+}
+
+.input-task button{
+    padding: 7px;
+}
+h2{
+    margin: 5px;
+    text-align: center;
+}
+ul{
+    margin: 1.4rem;
+
+}
+li{
+    margin:0 1rem 0 1rem ;
+    list-style: decimal;
+    border-bottom: 3px solid black;
+    border-radius: 20px;
+    padding: 1rem;
+}
+li .delete{
+    float: right;
+    padding: 0.4rem 1.3rem;
+}
